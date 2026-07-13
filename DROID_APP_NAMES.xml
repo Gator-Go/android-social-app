@@ -1,0 +1,16 @@
+<appNames>
+  <appName newName="social" oldName="ooooo"/>
+  <appName newName="social" oldName="xxxxx"/>
+  <appName newName="Social" oldName="Xxxxx"/>
+  <appName newName="SOCIAL" oldName="XXXXX"/>
+  <appName newName="Raspberry Social" oldName="XDXDXDXDX"/>
+  <appName newName="SOCIAL_APP" oldName="XSXSX"/>
+  <appName newName="socialApp" oldName="xsxsx"/>
+  <appPackage newPackage="com.swBuilder.social.app" oldPackage="ppp.ppp.ppp"/>
+  <appPackage newPackage="com/swBuilder/social/app" oldPackage="PPPsPPPsPPP"/>
+  <appPackage newPackage="com_swBuilder_social_app" oldPackage="PPP_PPP_PPP"/>
+  <appAuthor newAuthor="Ron Kanengieter" oldAuthor="Aaaaa"/>
+  <appAuthor newAuthor="gator@sw-builder.com" oldAuthor="aaaaa@ddddd"/>
+  <appCopyright newCopyright="Developed by sw-builder.com" oldCopyright="Lllll"/>
+
+</appNames>

@@ -1,0 +1,25 @@
+<appTables>
+
+  <appTable displayName='Member' objPlural='members' classPlural='Members' objName='member' className='Member' dbName='MEMBER' fileName='member'>
+    <appField displayName='Name' dbName='NAME' classFieldName='Name' objFieldName='name' fieldType='String' fieldSize='20' codeType='String' listFlag='yes' listOrder='2' blobNameFld='' scale='' format='%s' classPlural=''/>
+    <appField displayName='Picture' dbName='PICTURE' classFieldName='Picture' objFieldName='picture' fieldType='Integer' fieldSize='1' codeType='Thumbnail' listFlag='no' listOrder='1' blobNameFld='' scale='' format='%d' classPlural=''/>
+    <appField displayName='Postings' dbName='POSTING' classFieldName='Posting' objFieldName='posting' fieldType='Posting' fieldSize='0' codeType='One2ManyParent' listFlag='no' listOrder='3' blobNameFld='' scale='' format='' classPlural='Postings'/>
+    <appField displayName='Comments' dbName='COMMENT' classFieldName='Comment' objFieldName='comment' fieldType='Comment' fieldSize='0' codeType='One2ManyParent' listFlag='no' listOrder='4' blobNameFld='' scale='' format='' classPlural='Comments'/>
+  </appTable>
+
+  <appTable displayName='Posting' objPlural='postings' classPlural='Postings' objName='posting' className='Posting' dbName='POSTING' fileName='posting'>
+    <appField displayName='Posting' dbName='POSTING' classFieldName='Posting' objFieldName='posting' fieldType='Integer' fieldSize='1' codeType='Post' listFlag='no' listOrder='1' blobNameFld='' scale='' format='%d' classPlural=''/>
+    <appField displayName='Posting Info' dbName='POSTING_INFO' classFieldName='PostingInfo' objFieldName='postingInfo' fieldType='String' fieldSize='255' codeType='String' listFlag='no' listOrder='3' blobNameFld='' scale='' format='%s' classPlural=''/>
+    <appField displayName='Posting Date' dbName='POSTING_DATE' classFieldName='PostingDate' objFieldName='postingDate' fieldType='Date' fieldSize='10' codeType='Date' listFlag='yes' listOrder='4' blobNameFld='' scale='' format='' classPlural=''/>
+    <appField displayName='Member' dbName='MEMBER' classFieldName='Member' objFieldName='member' fieldType='Long' fieldSize='0' codeType='One2ManyChild' listFlag='no' listOrder='7' blobNameFld='' scale='' format='' classPlural='Members'/>
+    <appField displayName='Comments' dbName='COMMENT' classFieldName='Comment' objFieldName='comment' fieldType='Long' fieldSize='0' codeType='One2ManyParent' listFlag='no' listOrder='8' blobNameFld='' scale='' format='' classPlural='Comments'/>
+  </appTable>
+
+  <appTable displayName='Comment' objPlural='comments' classPlural='Comments' objName='comment' className='Comment' dbName='COMMENT' fileName='comment'>
+    <appField displayName='Posting Comment' dbName='POSTING_COMMENT' classFieldName='PostingComment' objFieldName='postingComment' fieldType='String' fieldSize='255' codeType='Clob' listFlag='yes' listOrder='2' blobNameFld='' scale='' format='%s' classPlural=''/>
+    <appField displayName='Comment Date' dbName='COMMENT_DATE' classFieldName='CommentDate' objFieldName='commentDate' fieldType='Date' fieldSize='10' codeType='Date' listFlag='yes' listOrder='1' blobNameFld='' scale='' format='' classPlural=''/>
+    <appField displayName='Member' dbName='MEMBER' classFieldName='Member' objFieldName='member' fieldType='Long' fieldSize='0' codeType='One2ManyChild' listFlag='no' listOrder='3' blobNameFld='' scale='' format='' classPlural='Members'/>
+    <appField displayName='Posting' dbName='POSTING' classFieldName='Posting' objFieldName='posting' fieldType='Long' fieldSize='0' codeType='One2ManyChild' listFlag='no' listOrder='4' blobNameFld='' scale='' format='' classPlural='Postings'/>
+  </appTable>
+
+</appTables>

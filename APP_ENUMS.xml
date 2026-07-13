@@ -1,0 +1,13 @@
+<appEnums>
+
+  <appEnum appField='PostingEvent' defaultClass='NONE'>
+    <theEnum classValue='NONE' codeValue=' '/>
+    <theEnum classValue='CHRISTMAS' codeValue='Christmas'/>
+    <theEnum classValue='NEW_YEARS' codeValue='New Years'/>
+    <theEnum classValue='LABOR_DAY' codeValue='Labor Day'/>
+    <theEnum classValue='MEMORIAL_DAY' codeValue='Memorial Day'/>
+    <theEnum classValue='THANKSGIVING' codeValue='Thanksgiving'/>
+    <theEnum classValue='EASTER' codeValue='Easter'/>
+  </appEnum>
+
+</appEnums>

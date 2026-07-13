@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Raspberry Social</string>
+    <string name="selectOne">Select One Of The Items Listed Below:</string>
+    <string name="help">Help</string>
+    <string name="register">Register</string>
+    <string name="myReturn">Return</string>
+    <string name="settings">Settings</string>
+    <string name="sync">Sync</string>
+    <string name="exit">Exit</string>
+    <string name="empty">Empty - Use The Add Option</string>
+    <string name="noMatches">No Matches Found</string>
+    <string name="helpText">Help Text</string>
+    <string name="getId">Get By ID</string>
+    <string name="enterId">Enter ID</string>
+    <string name="id">ID:</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="sTrue">True</string>
+    <string name="sFalse">False</string>
+    <string name="to"> TO </string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="deleteConfirm">Delete Confirmation</string>
+    <string name="deleteItem">Delete this Item?</string>
+    <string name="tLat">Lat: </string>
+    <string name="tLong">Long: </string>
+    <string name="changeDate">Change Date</string>
+    <string name="changeTime">Change Time</string>
+    <string name="searchDate">Search Date</string>
+    <string name="dateRange">Date Range</string>
+    <string name="setTime">Set Time</string>
+
+    <string name="idText">ID</string>
+    <string name="deviceIdText">Device ID</string>
+    <string name="cloudIdText">Cloud ID</string>
+    <string name="lastUpdateText">Last Update</string>
+    <string name="deleteFlagText">Delete Flag</string>
+
+    <string name="noCamera">No Camera On This Device</string>
+    <string name="noFront">No Front Facing Camera Found</string>
+    <string name="noDir">Can Not Create Directory To Save Image</string>
+
+    <string name="noPermission">No Device Storage Permission</string>
+    <string name="uploadPhoto">Upload Photo</string>
+    <string name="takePhoto">Take Photo</string>
+    <string name="noPhoto">No Photo</string>
+    <string name="noEditPhoto">No Edit Photo</string>
+    <string name="photoReady">Photo Ready</string>
+    <string name="noPhotoEdit">No Edit Photo</string>
+    <string name="editPhotoReady">Edit Photo Ready</string>
+    <string name="photoExistsAnd">Photo Exists And Edit Photo Ready</string>
+    <string name="photoExistsBut">Photo Exists But No Edit Photo</string>
+    <string name="keepPhoto">Keep Previous Photo?</string>
+    <string name="photoView">View Photo</string>
+    <string name="noPhotoFile">Photo File Not Found</string>
+    <string name="deletePhoto">Delete Photo</string>
+    <string name="deleteThisPhoto">Delete This Photo?</string>
+    <string name="noPhotoView">No Photo View, Use Edit To Take One.</string>
+    <string name="SecurityHelp">Security Help</string>
+
+    <string name="uploadVideo">Upload Video</string>
+    <string name="takeVideo">Take Video</string>
+    <string name="noVideo">No Video</string>
+    <string name="noEditVideo">No Edit Video</string>
+    <string name="videoReady">Video Ready</string>
+    <string name="noVideoEdit">No Edit Video</string>
+    <string name="editVideoReady">Edit Video Ready</string>
+    <string name="videoExistsAnd">Video Exists And Edit Video Ready</string>
+    <string name="videoExistsBut">Video Exists But No Edit Video</string>
+    <string name="keepVideo">Keep Previous Video?</string>
+    <string name="videoView">View Video</string>
+    <string name="noVideoFile">Video File Not Found</string>
+    <string name="deleteVideo">Delete Video</string>
+    <string name="deleteThisVideo">Delete This Video?</string>
+    <string name="noVideoView">No Video View, Use Edit To Take One.</string>
+
+    <string name="uploadThumbnail">Upload Thumbnail</string>
+    <string name="takeThumbnail">Take Thumbnail</string>
+    <string name="noThumbnail">No Thumbnail</string>
+    <string name="noEditThumbnail">No Edit Thumbnail</string>
+    <string name="thumbnailReady">Thumbnail Ready</string>
+    <string name="noThumbnailEdit">No Edit Thumbnail</string>
+    <string name="editThumbnailReady">Edit Thumbnail Ready</string>
+    <string name="thumbnailExistsAnd">Thumbnail Exists And Edit Thumbnail Ready</string>
+    <string name="thumbnailExistsBut">Thumbnail Exists But No Edit Thumbnail</string>
+    <string name="keepThumbnail">Keep Previous Thumbnail?</string>
+    <string name="thumbnailView">View Thumbnail</string>
+    <string name="noThumbnailFile">Thumbnail File Not Found</string>
+    <string name="deleteThumbnail">Delete Thumbnail</string>
+    <string name="deleteThisThumbnail">Delete This Thumbnail?</string>
+    <string name="noThumbnailView">No Thumbnail View, Use Edit To Take One.</string>
+
+    <string name="uploadPost">Upload Post</string>
+    <string name="takePost">Take Post</string>
+    <string name="noPost">No Post</string>
+    <string name="noEditPost">No Edit Post</string>
+    <string name="postReady">Post Ready</string>
+    <string name="noPostEdit">No Edit Post</string>
+    <string name="editPostReady">Edit Post Ready</string>
+    <string name="postExistsAnd">Post Exists And Edit Post Ready</string>
+    <string name="postExistsBut">Post Exists But No Edit Post</string>
+    <string name="keepPost">Keep Previous Post?</string>
+    <string name="postView">View Post</string>
+    <string name="noPostFile">Post File Not Found</string>
+    <string name="deletePost">Delete Post</string>
+    <string name="deleteThisPost">Delete This Post?</string>
+    <string name="noPostView">No Post View, Use Edit To Take One.</string>
+
+    <string name="gpsSettings">GPS Settings</string>
+    <string name="gpsMenu">GPS is not enabled. Do you want to go to settings menu?</string>
+    <string name="locView">View Location</string>
+    <string name="locLoad">Location Load</string>
+    <string name="locStart">Start Location Logging</string>
+    <string name="locStop">Stop Location Logging</string>
+    <string name="locStartService">Location Logging Service Is On</string>
+    <string name="locStopService">Location Logging Service Is Off</string>
+    <string name="rangeError">Range Error: Second Value Greater Than First</string>
+    <string name="latError">Latitude Invalid: Valid Data Between -90.0 and 90.0</string>
+    <string name="rangeLatError">Range Latitude Invalid: Valid Data Between -90.0 and 90.0</string>
+    <string name="latRangeError">Latitude Range Error: Second Value Greater Than First</string>
+    <string name="longError">Longitude Invalid: Valid Data Between -180.0 and 180.0</string>
+    <string name="rangeLongError">Range Longitude Invalid: Valid Data Between -180.0 and 180.0</string>
+    <string name="longRangeError">Longitude Range Error: Second Value Greater Than First</string>
+    <string name="dateRangeError">Date Range Error: Second Value Greater Than First</string>
+
+    <string name="name">Name:</string>
+    <string name="nameSearch">Name Search:</string>
+    <string name="nameHelp">Name help text.</string>
+    <string name="nameSearchHelp">Name Search help text.</string>
+
+    <string name="picture">Picture:</string>
+    <string name="pictureSearch">Picture Search:</string>
+    <string name="pictureHelp">Picture help text.</string>
+    <string name="pictureSearchHelp">Picture Search help text.</string>
+
+    <string name="currentLoc">Current Location:</string>
+    <string name="currentLocSearch">Current Location Search:</string>
+    <string name="currentLocHelp">Current Location help text.</string>
+    <string name="currentLocSearchHelp">Current Location Search help text.</string>
+
+    <string name="postingAdd">Add Postings</string>
+    <string name="postingList">List Postings</string>
+    <string name="commentAdd">Add Comments</string>
+    <string name="commentList">List Comments</string>
+
+    <string name="postingInfo">Posting Info:</string>
+    <string name="postingInfoSearch">Posting Info Search:</string>
+    <string name="postingInfoHelp">Posting Info help text.</string>
+    <string name="postingInfoSearchHelp">Posting Info Search help text.</string>
+
+    <string name="postingTag">Posting Tag:</string>
+    <string name="postingTagSearch">Posting Tag Search:</string>
+    <string name="postingTagHelp">Posting Tag help text.</string>
+    <string name="postingTagSearchHelp">Posting Tag Search help text.</string>
+
+    <string name="postingDate">Posting Date:</string>
+    <string name="postingDateSearch">Posting Date Search:</string>
+    <string name="postingDateHelp">Posting Date help text.</string>
+    <string name="postingDateSearchHelp">Posting Date Search help text.</string>
+
+    <string name="postingPicture">Posting Picture:</string>
+    <string name="postingPictureSearch">Posting Picture Search:</string>
+    <string name="postingPictureHelp">Posting Picture help text.</string>
+    <string name="postingPictureSearchHelp">Posting Picture Search help text.</string>
+
+    <string name="memberView">View Member</string>
+    <string name="member">Member:</string>
+    <string name="memberSearch">Member Search:</string>
+    <string name="memberHelp">Member help text.</string>
+    <string name="memberSearchHelp">Member Search help text.</string>
+
+    <string name="postingComment">Posting Comment:</string>
+    <string name="postingCommentSearch">Posting Comment Search:</string>
+    <string name="postingCommentHelp">Posting Comment help text.</string>
+    <string name="postingCommentSearchHelp">Posting Comment Search help text.</string>
+
+    <string name="commentDate">Comment Date:</string>
+    <string name="commentDateSearch">Comment Date Search:</string>
+    <string name="commentDateHelp">Comment Date help text.</string>
+    <string name="commentDateSearchHelp">Comment Date Search help text.</string>
+
+    <string name="postingView">View Posting</string>
+    <string name="posting">Posting:</string>
+    <string name="postingSearch">Posting Search:</string>
+    <string name="postingHelp">Posting help text.</string>
+    <string name="postingSearchHelp">Posting Search help text.</string>
+
+    <string name="tag">Tag:</string>
+    <string name="tagSearch">Tag Search:</string>
+    <string name="tagHelp">Tag help text.</string>
+    <string name="tagSearchHelp">Tag Search help text.</string>
+
+
+    <string name="prefDeviceIdTitle">Device ID</string>
+    <string name="prefDeviceIdSummary">Set Your Device ID</string>
+    <string name="prefServerIPTitle">Server IP Address</string>
+    <string name="prefServerIPSummary">Set Your Server IP Address</string>
+    <string name="prefServerUserTitle">Server User</string>
+    <string name="prefServerUserSummary">Set Your Server User</string>
+    <string name="prefServerPassTitle">Server Password</string>
+    <string name="prefServerPassSummary">Set Your Server Password</string>
+    <string name="prefLastSyncDateTitle">Last Sync Date</string>
+    <string name="prefLastSyncDateDialog">Last Sync Date (Format: DD-MM-YYYY)</string>
+    <string name="prefLastSyncDateSummary">Set Your Last Sync Date</string>
+    <string name="showButtonsTitle">Show Action Buttons</string>
+    <string name="showButtonsSummary">Show Action Buttons Option</string>
+    <string name="getServerDataTitle">Get Server Sync Data</string>
+    <string name="getServerDataSummary">Get Server Sync Data Option</string>
+    <string name="prefDateFormatTitle">Date Formats</string>
+    <string name="prefDateFormatSummary">Set Your Date Format</string>
+    <string name="socialServiceHelp">SOCIAL SERVICE HELP\n
+    Help text here. </string>
+<string name="registryNonexist">Must register with server first.</string>
+<string name="activityHelp">ACTIVITY HELP\n
+\n
+Settings:\n
+Use this action to change default settings for the app.\n
+\n
+Exit:\n
+Use this action to exit from the application.\n
+</string>
+
+<string name="settingsHelp">SETTINGS HELP\n
+\n
+Show Action Buttons:\n
+Use this setting to show or not show the action buttons for the app.
+All actions from the action buttons can be accessed by the same icon
+ in the app menu bar at the top of the display.\n
+\n
+Date Formats:\n
+Use this setting to change the date format when dates are displayed in the data view displays.\n
+\n
+</string>
+
+<string name="locServiceHelp">LOCATION SERVICE HELP\n
+\n
+Location Service:\n
+ The location service logs the app location when the app has been in one location. 
+ The location service runs in the background and continues logging locations until the
+ stop location logging button is clicked. If another member is logging locations, that
+ service is stopped and a new location logging service is started for the current member.\n
+\n
+</string>
+
+</resources>
