@@ -17,6 +17,7 @@
   <appTable displayName='Comment' objPlural='comments' classPlural='Comments' objName='comment' className='Comment' dbName='COMMENT' fileName='comment'>
     <appField displayName='Posting Comment' dbName='POSTING_COMMENT' classFieldName='PostingComment' objFieldName='postingComment' fieldType='String' fieldSize='255' codeType='Clob' listFlag='yes' listOrder='2' blobNameFld='' scale='' format='%s' classPlural=''/>
     <appField displayName='Comment Date' dbName='COMMENT_DATE' classFieldName='CommentDate' objFieldName='commentDate' fieldType='Date' fieldSize='10' codeType='Date' listFlag='yes' listOrder='1' blobNameFld='' scale='' format='' classPlural=''/>
+    <appField displayName='Member' dbName='MEMBER' classFieldName='Member' objFieldName='member' fieldType='Long' fieldSize='0' codeType='One2ManyChild' listFlag='no' listOrder='3' blobNameFld='' scale='' format='' classPlural='Members'/>
     <appField displayName='Posting' dbName='POSTING' classFieldName='Posting' objFieldName='posting' fieldType='Long' fieldSize='0' codeType='One2ManyChild' listFlag='no' listOrder='4' blobNameFld='' scale='' format='' classPlural='Postings'/>
   </appTable>
 
