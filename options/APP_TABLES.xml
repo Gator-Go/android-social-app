@@ -4,6 +4,7 @@
     <appField displayName='Name' dbName='NAME' classFieldName='Name' objFieldName='name' fieldType='String' fieldSize='20' codeType='String' listFlag='yes' listOrder='2' blobNameFld='' scale='' format='%s' classPlural=''/>
     <appField displayName='Picture' dbName='PICTURE' classFieldName='Picture' objFieldName='picture' fieldType='Integer' fieldSize='1' codeType='Thumbnail' listFlag='no' listOrder='1' blobNameFld='' scale='' format='%d' classPlural=''/>
     <appField displayName='Postings' dbName='POSTING' classFieldName='Posting' objFieldName='posting' fieldType='Posting' fieldSize='0' codeType='One2ManyParent' listFlag='no' listOrder='3' blobNameFld='' scale='' format='' classPlural='Postings'/>
+    <appField displayName='Comments' dbName='COMMENT' classFieldName='Comment' objFieldName='comment' fieldType='Comment' fieldSize='0' codeType='One2ManyParent' listFlag='no' listOrder='4' blobNameFld='' scale='' format='' classPlural='Comments'/>
   </appTable>
 
   <appTable displayName='Posting' objPlural='postings' classPlural='Postings' objName='posting' className='Posting' dbName='POSTING' fileName='posting'>
